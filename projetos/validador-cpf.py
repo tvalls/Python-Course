@@ -44,7 +44,7 @@ while True:
             print('O CPF deve conter 11 dígitos, sem pontos e sem traços.')
             x=input('Aperte Enter para continuar')
             continue
-        elif cpf == cpf[1]*len(cpf):
+        elif cpf == cpf[0]*len(cpf):
             print('CPF inválido!')
             input('Aperte Enter para continuar')
             continue
